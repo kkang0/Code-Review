@@ -4,7 +4,7 @@ dotenv.config();
 
 var conn = mysql.createConnection({
   host: "localhost",
-  port: process.env.DB_PORT,
+  port: "9999",
   user: "root",
   password: "root",
   database: "codeReview",
